@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VG Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    
+    <!-- Box icon link -->
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <!-- remix icon link -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!-- Google Font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:ital,wght@0,300;1,400;1,600&family=Roboto+Slab:wght@400;600&display=swap" rel="stylesheet">  
+    
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+    (function(){
+      emailjs.init("zsJjIeqY59JLap830");
+    })();
+</script>
+</head>
+<body>
+    <!-- header -->
+    <header class="fixed w-full mt-0 mr-0 z-[1000] flex items-center justify-between py-[10px] px-[12%] transition-all duration-[.50s] ease-linear header .sticky bg-[#1b1f24] shadow-md">
+        <a href="#" class="logo text-4xl text-white font-semibold ">Developer <span class="text-[#13bbff]">VG.</span></a>
+
+        <input type="checkbox" id="check">
+        <label for="check" class="icons">
+            <i  class="bx bx-menu" id="menu-icon"></i>
+            <i class="bx bx-x" id='close-icon'></i>
+        </label>
+            
+
+        
+
+        <ul class="navlist flex">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+        </ul>
+
+        <div class="top-btnn">
+            <a href="#contact" class="h-btn inline-block px-6 py-2 bg-transparent 
+            text-[#13bbff] border-2 border-solid border-[#13bbff] rounded-lg 
+            text-sm font-semibold transition-all duration-[.50s] ease-linear 
+            hover:bg-[#13bbff] hover:text-[#1b1f24] hover:shadow-none hover:opacity-[20px] 
+            hover:shadow-[#13bbff] transform-[scale(1.1)] hover:scale-100">Contact me</a>
+        </div>
+    </header>
+
+    <!-- intro -->
+        <section class="hero h-[605px] -mt-0 w-full pl-[12%]" id="home">
+            <div data-aos="fade-in" class="main-content">
+                <h4 class="font-bold text-[2rem] mt-2">Hi, There!</h4>
+                <h1 class="font-bold text-[4.5rem]  my-5 leading-5">I'm <span class="text-[#13bbff]">Vaibhav Garg</span></h1>
+                <p class="text-lg font-normal w-2/3 max-w-full text-[#c3cad5] leading-8 my-8">
+                    I am a 3rd year CSE Student, aspiring Full Stack Python Developer and Software Engineer.
+                </p>
+                <div class="social mb-10">
+                    <a href="https://www.linkedin.com/in/vaibhav-garg-4b2684219/"><i class="ri-linkedin-fill"></i></a>
+                    <a href="https://www.instagram.com/vaibhav_garg_25/?hl=en"><i class="ri-instagram-fill"></i></a>
+                    <a href="https://twitter.com/Vaibhav20410777"><i class="ri-twitter-fill"></i></a>
+                </div>
+
+                <div class="main-btn ">
+                    <a href="#" class="btn inline-flex py-3 px-6 bg-[#13bbff] text-[#1b1f24] border-2 border-solid 
+                    border-[#13bbff] text-sm rounded-2xl font-semibold transition-all duration-[.50s] ease-linear 
+                    hover:bg-transparent hover:text-[#13bbff] hover:shadowvg">Hire me</a>
+                    <a href="https://drive.google.com/file/d/1I2hF8KIDRip9AnBBA6vkosBr0Ez2hDhx/view?usp=sharing" class="btn inline-flex py-3 ml-4 px-6 bg-transparent text-[#13bbff] border-2 border-solid 
+                    border-[#13bbff] text-sm rounded-2xl font-semibold transition-all duration-[.50s] ease-linear 
+                    hover:bg-[#13bbff] hover:text-[#1b1f24] hover:shadowvg">Download CV</a>
+                </div>
+            </div>
+        </section>
+
+    <!-- about -->
+        <section class="about pl-[12%]" id="about">
+            <div class="about-img" data-aos="zoom-in-down">
+                <img src="./image/vg_bg.png" >
+            </div>
+
+            <div class="about-txt ml-20" data-aos="zoom-in-up">
+                <h3 class="text-gray-300">INTRODUCTION</h3>
+                <h2 class="h-[4rem] text-[3.5rem] text-[#13bbff] mb-[40px]">Overview.</h2>
+                <div class="exp-area mb-12 ">
+                    
+                    <p class="exp mb-5">
+                        I am a versatile professional, proficient in both web development and data analysis. With a passion for creating dynamic and user-friendly websites, I excel in crafting visually appealing and responsive web solutions. My expertise extends to front-end and back-end technologies, enabling me to deliver seamless user experiences. Additionally, I am a data enthusiast, skilled in extracting valuable insights from datasets to drive informed decision-making. I leverage my analytical skills to uncover patterns and trends, providing actionable recommendations for businesses.
+                    </p>
+                </div>
+                <a href="#portfolio" class="btn inline-flex py-3 px-6 bg-[#13bbff] text-[#1b1f24] border-2 border-solid 
+                border-[#13bbff] text-sm rounded-2xl font-semibold transition-all duration-[.50s] ease-linear 
+                hover:bg-transparent hover:text-[#13bbff] hover:shadowvg">View All Projects</a>
+            </div>
+        </section>
+
+    <!-- services -->
+        <section class="services px-[12%] " id="services">
+            <div class="conter-text text-center" data-aos="fade-down">
+                <h2 class="text-[2.9rem]">My <span class="text-[#13bbff]">Services</span></h2>
+            </div>
+
+            <div class="services-content grid1 m-2" data-aos="zoom-in-up">
+                <div class="box">
+                    <img src="./image/flash (1).png" class="h-14 mb-5 p-1 font-bold bg-blue-600 rounded-full">
+                    <h3 class="text-xl font-bold mb-[10px]">UI/UX Design</h3>
+                    <p class="text-[0.8rem] font-normal text-[#c3cad5] leading-[30px] mb-2">Figma is a powerful cloud-based design tool that has revolutionized the world of UI/UX design. It provides a collaborative platform for designers and teams to create, prototype, and iterate on user interfaces with ease. With Figma, you can seamlessly transition from wireframes to high-fidelity designs.
+                    </p>
+                    <a href="#" class="inline-block text-xl leading-[1.273em] font-bold py-2 px-0 text-white transition-all duration-0 border-[#5d6c83] border-b-2 ease-linear hover:border-[#13bbff]">
+                        Download Now 
+                        <i class="ri-arrow-right-line align-middle text-2xl text-[#13bbff] ml-1"></i>
+                    </a>
+                </div>
+
+                <div class="box ">
+                    <img src="./image/flash (1).png" class="h-14 mb-5 p-1 font-bold bg-blue-600 rounded-full">
+                    <h3 class="text-xl font-bold mb-[10px]">Website Development</h3>
+                    <p class="text-[0.8rem] font-normal text-[#c3cad5] leading-[30px] mb-2">Create stunning, responsive websites with HTML and CSS, enhanced by the power of Tailwind CSS for efficient design. Utilize Django for robust backend development, seamlessly integrating with MongoDB for data storage. This modern stack ensures a visually appealing, user-friendly experience on all devices.
+                        </p>
+                        <a href="#" class="inline-block text-xl leading-[1.273em] font-bold py-2 px-0 text-white transition-all duration-0 border-[#5d6c83] border-b-2 ease-linear hover:border-[#13bbff]">
+                            Download Now 
+                            <i class="ri-arrow-right-line align-middle text-2xl text-[#13bbff] ml-1"></i>
+                        </a>
+                </div>
+
+                <div class="box ">
+                    <img src="./image/flash (1).png" class="h-14 mb-5 p-1 font-bold bg-blue-600 rounded-full">
+                    <h3 class="text-xl font-bold mb-[10px]">Django Developer</h3>
+                    <p class="text-[0.8rem] font-normal text-[#c3cad5] leading-[30px] mb-2">A Django developer offers expert services in designing, developing, and maintaining web applications using the Django framework. They specialize in creating robust, secure, and scalable websites, ensuring efficient data management, seamless user experiences, and rapid deployment.
+                        </p>
+                        <a href="#" class="inline-block text-xl leading-[1.273em] font-bold py-2 px-0 text-white transition-all duration-0 border-[#5d6c83] border-b-2 ease-linear hover:border-[#13bbff]" >
+                            Download Now 
+                            <i class="ri-arrow-right-line align-middle text-2xl text-[#13bbff] ml-1"></i>
+                        </a>
+                </div>
+            </div>
+        </section>
+
+    <!-- Portfolio -->
+        <section class="portfolio px-[12%] text-[#22282f]" id="portfolio">
+            <div class="conter-text text-center" data-aos="fade-down">
+                <h2 class="text-[2.9rem] text-white">My <span class="text-[#13bbff]">Projects</span></h2>
+            </div>
+
+            <div class="portfolio-content grid1 mb-6" data-aos="zoom-in-up">
+                <div class="row ">
+                    <img src="./image/nike_ecommerce.png" class="h-auto w-full rounded-[28px] mb-6">
+                    <div class="main-row">
+                        <div class="row-text">
+                            <h5>Shoes Ecommerce Site</h5>
+                        </div>
+                        <div class="row-icon">
+                            <a href="https://github.com/vaibhav25garg/shoes"><i class="ri-github-fill"></i></a>
+                        </div>
+                    </div>
+                    <h4>Creating a shoe e-commerce website using HTML, CSS, and Django allows you to build a dynamic and visually appealing platform for selling shoes online.</h4>
+                    <h5><span class="text-purple-400">#django</span> <span class="text-blue-600">#HTML,CSS</span></h5>
+                </div>
+
+                <div class="row ">
+                    <img src="./image/online_resume.png" class="h-auto w-full rounded-[28px] mb-6">
+                    <div class="main-row">
+                        <div class="row-text">
+                            <h5>Resume</h5>
+                        </div>
+                        <div class="row-icon">
+                            <a href="https://github.com/vaibhav25garg/shoes"><i class="ri-github-fill"></i></a>
+                        </div>
+                    </div>
+                    <h4>Creating a personal resume website using HTML, CSS, and Django allows you to showcase your professional profile and skills in a dynamic and interactive way.</h4>
+                    <h5><span class="text-purple-400">#django</span> <span class="text-blue-600">#HTML,CSS</span></h5>
+                </div>
+
+                <div class="row ">
+                    <img src="./image/figma_front.png" class="h-auto w-full rounded-[28px] mb-6">
+                    <div class="main-row">
+                        <div class="row-text">
+                            <h5>UI/UX Design</h5>
+                        </div>
+                        <div class="row-icon">
+                            <i class="ri-github-fill"></i>
+                        </div>
+                    </div>
+                    <h4>UI/UX design for a research center website in Figma involves crafting a user-friendly, visually appealing interface. Focusing on intuitive navigation, responsive layout, and clear content presentation, designers create a seamless experience for visitors. </h4>
+                    <h5><span class="text-purple-400">#Figma</span> <span class="text-blue-600">#UI/UX</span></h5>
+                </div>
+
+                <div class="row ">
+                    <img src="./image/react_job_app.jpg" class="h-20px w-full rounded-[28px] mb-6">
+                    <div class="main-row">
+                        <div class="row-text">
+                            <h5>Job app</h5>
+                        </div>
+                        <div class="row-icon">
+                            <i class="ri-github-fill"></i>
+                        </div>
+                    </div>
+                    <h4>Develop a React Native job app for seamless job searching and hiring experiences on mobile.</h4>
+                    <h5><span class="text-purple-400">#React Native</span> <span class="text-blue-600">#Application</span></h5>
+                </div>
+            </div>
+        </section>
+ 
+    <!-- contact -->
+    <section class="contact" id="contact">
+        <div class="center-text mx-[12%] text-center" data-aos="fade-down">
+            <h2 class="text-[2.9rem]">Contact <span class="text-[#13bbff]">Me</span></h2>
+        </div>
+
+        <div class="contact-form " data-aos="zoom-in">
+            <form onsubmit="sendMail(); reset(); return false;">
+                <input type="text" id="name" placeholder="Your name" required></input>
+                <input type="email" id="email" placeholder="Email Address.." required></input>
+                <textarea type="text" id="message" cols="30" role="10" placeholder="How can we help you..." required></textarea>
+                <input type="submit"  value="Send Message" class="send-btn py-3 px-6 bg-[#13bbff] text-[#1b1f24] border-2 border-solid 
+                border-[#13bbff] text-sm rounded-2xl font-semibold transition-all duration-[.50s] ease-linear w-[30%]
+                hover:bg-transparent hover:text-[#13bbff] hover:shadowvg cursor-pointer"></input>
+            </form>
+        </div>
+    </section>
+
+    <!-- Portfolio -->
+    <div class="footer py-[22px] px-[12%] bg-[#22282f] flex align-middle justify-between gap-8 ">
+        <div class="copyright">
+            <p class="text-sm font-normal text-[#c3cad5]">2023 Vaibhav Garg, All Rights Reserved.</p>
+        </div>
+
+        <a href="#home" class="scroll-top">
+            <i class="ri-arrow-up-s-fill inline-flex align-middle justify-center bg-[#075fe4] w-9 h-9 rounded-full text-white text-2xl"></i>
+        </a>
+    </div>
+
+    <!-- js link -->
+    <script src="js/script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset:300,
+        duration:1400,
+      });
+    </script>
+    <script>
+        function sendMail(){
+            var params = {
+              name : document.getElementById("name").value,
+              email : document.getElementById("email").value,
+              message : document.getElementById("message").value,
+            }
+          
+            console.log("function call");
+            
+            const serviceID = "service_os2v58l";
+            const templateID = "template_2g99uxm";
+          
+            emailjs.send(serviceID,templateID,params)
+            .then(
+              (res)=>{
+                document.getElementById("name").value = "",
+                document.getElementById("email").value = "",
+                document.getElementById("message").value = "",
+                console.log(res);
+                alert("your message sent successfully");
+              }
+            )
+            .catch((err) => console.log(err));
+          }
+    </script>
+</body>
+</html>
